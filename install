@@ -87,13 +87,13 @@ rm -f install*
 #if [ "$os" = "CentOS" ] then
 
 if [ "$1" = "wordpress" ]; then
-        curl -sO https://lic.cgt.vn/HocVPS/scripts/$centos_version/install.sh
+        curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install.sh
         chmod +x install.sh
-        curl -sO https://lic.cgt.vn/HocVPS/scripts/$centos_version/install1.sh && bash install1.sh
+        curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install1.sh && bash install1.sh
 else
-        curl -sO https://lic.cgt.vn/HocVPS/scripts/$centos_version/install.sh
+        curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install.sh
         chmod +x install.sh
-        curl -sO https://lic.cgt.vn/HocVPS/scripts/$centos_version/install2.sh && bash install2.sh
+        curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install2.sh && bash install2.sh
 fi
 
 else
@@ -123,8 +123,8 @@ rm -f install*
 
 #if [ "$os" = "Ubuntu" ] then
 
-curl -sO https://lic.cgt.vn/HocVPS/scripts/ubuntu2004/install.sh
+curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/ubuntu2004/install.sh
 chmod +x install.sh
-curl -sO https://lic.cgt.vn/HocVPS/scripts/ubuntu2004/install2.sh && bash install2.sh
+curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/ubuntu2004/install2.sh && bash install2.sh
 #fi
 fi

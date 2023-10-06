@@ -10,8 +10,8 @@ hocvps_version="2.2"
 phpmyadmin_version="5.2.1" # Released 2020-03-21. Older version compatible with PHP 5.5 to 7.4 and MySQL 5.5 and newer. Currently supported for security fixes only.
 extplorer_version="2.1.13" # 05/15/2019 04:43 PM
 extplorer_id="82"
-script_root="https://lic.cgt.vn/HocVPS/scripts"
-script_url="https://lic.cgt.vn/HocVPS/scripts/7"
+script_root="https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts"
+script_url="https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/7"
 low_ram='262144' # 256MB
 
 yum -y install gawk bc wget lsof
