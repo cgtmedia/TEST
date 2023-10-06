@@ -85,15 +85,10 @@ cd /root/
 rm -f install*
 
 #if [ "$os" = "CentOS" ] then
-
 if [ "$1" = "wordpress" ]; then
-        curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install.sh
-        chmod +x install.sh
-        curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install1.sh && bash install1.sh
+	curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install.sh && bash install.sh wordpress
 else
-        curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install.sh
-        chmod +x install.sh
-        curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install2.sh && bash install2.sh
+	curl -sO https://raw.githubusercontent.com/cgtmedia/TEST/main/scripts/$centos_version/install.sh && bash install.sh
 fi
 
 else
